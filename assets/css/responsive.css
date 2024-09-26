@@ -1,0 +1,125 @@
+/* ==== 991 ==== */
+@media (max-width: 991px) {
+    .manu {
+        display: none;
+    }
+    .menuOpen {
+        display: flex;
+    }
+}
+/* ==== 768 ==== */
+@media (max-width: 768px) {
+    /* ============= sign in ============= */
+    .sing-ic1,
+    .sing-ic2 {
+        width: 550px;
+    }
+    .sign_in-card h2 {
+        text-align: left;
+        word-spacing: 5px;
+        text-transform: uppercase;
+        padding: 10px 25px;
+    }
+    .sign_in-card hr {
+        margin: 0;
+        height: 2px;
+    }
+    .alert_message {
+        margin: 40px 30px 10px 30px;
+    }
+    .sign_in-card form input {
+        width: 486px;
+        margin: 10px 30px 5px 30px;
+    }
+    .resp {
+        margin-left: 30px;
+    }
+    .sign_in-card small {
+        margin: 0 0 0 30px;
+    }
+    .form_control label {
+        margin-left: 30px;
+    }
+    /* ============ edit user ============ */
+    .sign_in-card select {
+        width: 486px;
+        margin: 10px 30px 5px 30px;
+    }
+    .sign_in-card button {
+        margin-bottom: 0;
+    }
+}
+/* ==== 576 ==== */
+@media (max-width: 576px) {
+    /* ============= sign in ============= */
+    .sign_in {
+        position: initial;
+        background-color: #1f242d;
+    }
+    .sign_in-card {
+        position: initial;
+    }
+    .sing-ic1,
+    .sing-ic2 {
+        width: 100%;
+    }
+    .sign_in-card h2 {
+        word-spacing: 5px;
+        text-transform: uppercase;
+        padding: 5px 15px;
+    }
+    .sign_in-card hr {
+        display: none;
+    }
+    .alert_message {
+        margin: 10px 0;
+    }
+    .sign_in-card {
+        transform: translate(-0%, 0%);
+        -webkit-transform: translate(-0%, 0%);
+        -moz-transform: translate(-0%, 0%);
+        -ms-transform: translate(-0%, 0%);
+        -o-transform: translate(-0%, 0%);
+        box-shadow: initial;
+    }
+    .sign_in-card form input {
+        width: 100%;
+        margin: 7px 0;
+    }
+    .btn {
+        width: 100%;
+        margin: 10px 0;
+        height: 50px;
+    }
+    .sign_in-card small {
+        margin: 0;
+    }
+    .form_control label {
+        margin-left: 0;
+    }
+    /* ============ edit user ============ */
+    .sign_in-card.md-ali {
+        transform: translate(-0%, 0%) !important;
+        -webkit-transform: translate(-0%, 0%) !important;
+        -moz-transform: translate(-0%, 0%) !important;
+        -ms-transform: translate(-0%, 0%) !important;
+        -o-transform: translate(-0%, 0%) !important;
+        margin-top: 150px;
+    }
+    .edit_user {
+        margin-top: 15px;
+      }
+    .sign_in-card select {
+        width: 100%;
+        margin: 3px 0;
+    }
+    /* ============ manage users ============ */
+    .sign_in-card.carbo {
+        transform: translate(-0%, 0%) !important;
+        -webkit-transform: translate(-0%, 0%) !important;
+        -moz-transform: translate(-0%, 0%) !important;
+        -ms-transform: translate(-0%, 0%) !important;
+        -o-transform: translate(-0%, 0%) !important;
+        margin-top: 125px;
+    }
+}
