@@ -426,14 +426,19 @@ section:nth-child(odd) {
 }
 /* ============ manage users ============ */
 
+.position {
+    margin: 40px 55px 0px 0px !important;
+}
 .bg-matco {
     background-color: #11141a;
 }
 .bg-litco {
     background-color: #1f242d;
 }
-main.manage {
+.manage {
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 .manage-users {
     position: absolute;
@@ -444,6 +449,7 @@ main.manage {
     box-shadow: 0 48px 48px rgba(0, 0, 0, 0.4);
     display: grid;
     grid-template-columns: 1fr 6fr;
+    overflow: hidden;
 }
 .nav-so {
     background-color: #323946;
@@ -569,4 +575,33 @@ main.manage {
     -moz-transition: all .3s linear;
     -ms-transition: all .3s linear;
     -o-transition: all .3s linear;
+}
+
+/* ============ dashboard ============ */
+.data {
+    background-color: #323946;
+    width: 100%;
+    height: 600px;
+}
+.wrapper{
+    display: grid;
+    place-content: center;
+    color: #fff;
+    font-size: clamp(1.5rem, 1rem + 18vw, 15rem);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.wrapper > div{
+    grid-area: 1/1/-1/-1;
+}
+.top{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 48%, 0% 58%);
+}
+.bottom{
+    color: transparent;
+    background: -webkit-linear-gradient(177deg, #323946 53%, hsl(0, 0%, 100%) 65%);
+    background: linear-gradient(177deg, #323946 53%, hsl(0, 0%, 100%) 65%);
+    background-clip: text;
+    transform: translateX(-0.02em);
+    clip-path: polygon(0% 60%, 100% 50%, 100% 100%, 0% 100%);
 }
