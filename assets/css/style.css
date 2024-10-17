@@ -528,15 +528,14 @@ section:nth-child(odd) {
     -ms-transition: all .3s linear;
     -o-transition: all .3s linear;
 }
-.nav-so ul li a h5:hover {
-    background-color: #11141a;
-    color: #0ef;
-    padding-left: 50px;
-}
+.nav-so ul li a h5:hover,
 .nav-so ul li a h5.active {
     background-color: #11141a;
     color: #0ef;
     padding-left: 50px;
+}
+.icon-1 {
+    display: none;
 }
 .loc-so {
     width: 100%;
@@ -587,7 +586,7 @@ section:nth-child(odd) {
     display: grid;
     place-content: center;
     color: #fff;
-    font-size: clamp(1.5rem, 1rem + 18vw, 15rem);
+    font-size: clamp(1.5rem, 1rem + 3vw, 15rem);
     font-weight: 700;
     text-transform: uppercase;
 }
